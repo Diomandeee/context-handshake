@@ -1,0 +1,28 @@
+{
+  "name": "context-handshake",
+  "version": "1.0.0",
+  "description": "AI-to-AI context synchronization protocol - like TCP handshake for mental models",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --loader ts-node/esm test/handshake.test.ts",
+    "demo": "node --loader ts-node/esm demo/demo.ts"
+  },
+  "keywords": [
+    "ai",
+    "collaboration",
+    "context",
+    "handshake",
+    "mental-model",
+    "synchronization",
+    "clawdbot"
+  ],
+  "author": "HEF Evolution",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
